@@ -9,3 +9,28 @@
  1613  kubectl get services
  
  localhost:8083
+
+
+ run app kubernetes
+
+
+ git clone https://github.com/ketan-more-github/my_Docker.git
+ 1629  clear
+ 1630  cd my_Docker/
+ 1631  cd web_doc/
+ 1632  clear
+ 1633  pip install -r requirement.txt 
+ 1634  clear
+ 1635  python3 my_flask.py 
+ 1636  clear
+ 1637  docker build -t hello-kubernetes
+ 1638  docker build -t hello-kubernetes .
+ 1639  docker run -p 5001:5000 hello-kubernetes
+ 1640  clear
+ 1641  kubectl apply -f deployment.yaml
+ 1642  kubectl apply -f deployment.yml
+ 1643  kubectl get pods
+ 1644  kubectl delete --all pods
+ 1645  kubectl get pods
+ 1646  clear
+ 1647  history
