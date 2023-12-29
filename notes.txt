@@ -4,4 +4,8 @@
  1611  kubectl get pods
  1612  kubectl apply -f service.yaml 
  1613  kubectl get all
+ 1613  kubectl describe pods
+ 1613  kubectl get deployments
+ 1613  kubectl get services
+ 
  localhost:8083
